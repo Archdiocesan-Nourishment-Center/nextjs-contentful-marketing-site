@@ -1,4 +1,6 @@
+import PageHeading from '@/components/PageHeading/PageHeading'
 import Head from 'next/head'
+import HeadingAboutImg from "@/images/webps/heading-about.webp";
 
 export default function Page() {
   return (
@@ -9,8 +11,12 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       
-        <div className='container mx-auto flex flex-row w-full justify-between min-h-[500px]'>
-          About Us
+        <div className='min-h-[500px]'>
+        <PageHeading
+          bgImage={HeadingAboutImg}
+          label="Our Centers"
+          breadcrumbs={[{ label: "Our Centers", url: "/about" }]}
+        />
         </div>
       
     </>

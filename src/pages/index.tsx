@@ -9,7 +9,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       
-        <div className='container mx-auto flex flex-row w-full justify-between min-h-[500px]'>
+        <div className='min-h-[500px]'>
           About Us
         </div>
       
