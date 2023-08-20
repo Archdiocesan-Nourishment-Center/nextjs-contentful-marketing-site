@@ -10,7 +10,8 @@ const NavBar = (props: Props) => {
   return (
     <div className="bg-gray-800">
       <div className="container mx-auto">
-        <ul className="block xl:flex text-white font-bold gap-0">
+        <div className="px-4 py-3 text-white font-bold flex lg:hidden">Menu</div>
+        <ul className="text-white font-bold gap-0 hidden lg:(flex text-sm)">
           {links.map(({ label, url }) => (
             <li
               key={label}

@@ -10,8 +10,8 @@ type Props = {};
 const Footer = (props: Props) => {
     
   return (
-    <div className="bg-gray-800 py-1 px-5 sm:py-10 sm:px-0 min-h-[300px]" style={{ backgroundImage: `url(${FooterMapImg.src})`}}>
-      <div className="container grid grid-cols-1 sm:grid-cols-4 mx-auto gap-10">
+    <div className="bg-gray-800 py-1 px-4 sm:py-10 min-h-[300px]" style={{ backgroundImage: `url(${FooterMapImg.src})`}}>
+      <div className="container grid grid-cols-1 sm:grid-cols-3 mx-auto gap-10">
         <div className="text-white">
             <Image src={FooterLogoImg} alt="footer logo" />
           The Archdiocesan Nourishment Center aims to provide integral

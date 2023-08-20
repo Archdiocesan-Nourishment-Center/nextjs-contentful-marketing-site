@@ -4,4 +4,13 @@ import presetTailwind from '@twind/preset-tailwind'
 
 export default defineConfig({
   presets: [presetAutoprefix(), presetTailwind()],
+  theme: {
+    container: {
+      center: true,
+      screens: {
+        '2xl': '1280px'
+      },
+      
+    }
+  }
 })

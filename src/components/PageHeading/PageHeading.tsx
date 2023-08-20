@@ -23,9 +23,12 @@ const PageHeading = ({
       <div className="container mx-auto text-center py-10 relative z-index-10 text-white">
         <div className="font-bold text-4xl">{label}</div>
 
-        <ul className="flex mx-auto justify-center gap-10 mt-3">
+        <ul className="flex mx-auto justify-center gap-5 mt-3">
           <li>
             <Link href="/">Home</Link>
+          </li>
+          <li>
+             ›
           </li>
           {breadcrumbs.map(({ label, url }) => (
             <li key={label}>

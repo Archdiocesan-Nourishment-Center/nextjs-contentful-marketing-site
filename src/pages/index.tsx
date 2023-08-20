@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Carousel from '../components/Carousel/Carousel';
 
 export default function Page() {
   return (
@@ -9,8 +10,8 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       
-        <div className='min-h-[500px]'>
-          About Us
+        <div className='min-h-[calc(100vh-157px-408px-32px)]'>
+          <Carousel />
         </div>
       
     </>
